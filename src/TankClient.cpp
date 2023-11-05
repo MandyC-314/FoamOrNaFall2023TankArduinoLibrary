@@ -19,10 +19,10 @@ void TankClient::begin(){
     pinMode(PIN_MOTOR_4_REVERSE, OUTPUT);
 
     // Bump Sensors
-    pinMode(PIN_BUMP_FRONT, INPUT);
-    pinMode(PIN_BUMP_REAR, INPUT);
+   // pinMode(PIN_BUMP_FRONT, INPUT);
+    // pinMode(PIN_BUMP_REAR, INPUT);
     
-    // Ultrasonic Sensors
+    // Ultrasonic (Lidar??) Sensors
     pinMode(PIN_US_FRONT_TRIG, OUTPUT);
     pinMode(PIN_US_FRONT_ECHO, INPUT);
     pinMode(PIN_US_REAR_TRIG, OUTPUT);
