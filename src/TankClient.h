@@ -16,8 +16,8 @@
 #define PIN_MOTOR_4_FORWARD 2
 #define PIN_MOTOR_4_REVERSE 3
 // Bump Sensors
-#define PIN_BUMP_FRONT 32
-#define PIN_BUMP_REAR 33
+// #define PIN_BUMP_FRONT 32
+/ #define PIN_BUMP_REAR 33
 // Ultrasonic Sensors
 #define PIN_US_FRONT_TRIG 18
 #define PIN_US_FRONT_ECHO 19
